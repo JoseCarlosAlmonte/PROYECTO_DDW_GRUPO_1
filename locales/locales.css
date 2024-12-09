@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DMSans;
+}
+
+@font-face {
+    font-family: DMSans;
+    src: url(fonts/DMSans-Regular.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 55px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+#container-filtros h2 {
+    margin-bottom: 10px;
+}
+
+#locales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search {
+    margin: 20px;
+    text-align: center;
+}
+
+#barraBusqueda {
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+#boton {
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+}
+.logo {
+    height: 60px;
+    margin-right: auto;
+}
+
+.filtros {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.filtros li {
+    margin-bottom: 5px;
+}
+
+.filtros input {
+    margin-right: 7px;
+}
+
+.cards {
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+    width: 320px;
+    height: 180px;
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.cards h3 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-logo {
+    grid-column: 1 / 3; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 150px; 
+}
+
+.footer-redes {
+    grid-column: 1 / 3; 
+    margin-top: 10px;
+}
+
+.footer-redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-texto p {
+    margin: 5px 0;
+}
+
+.izquierda {
+    text-align: left;
+    align-self: flex-start;
+}
+
+.derecha {
+    text-align: right;
+    align-self: flex-start;
+}

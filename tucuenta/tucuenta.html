@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Cuenta</title>
+    <link rel="stylesheet" href="tucuenta.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../locales/locales.html">Locales</a>
+            <a href="../tucuenta/tucuenta.html">Tu Cuenta</a>
+            <a href="../membresia/membresia.html">Membresia</a>
+            <a href="../tienda/tienda.html">Tienda</a>
+            <a href="../nosotros/nosotros.html">Nosotros</a>
+        </nav>
+    </header>
+    <main>
+        <div id="contenido">
+            <img src="img/logo.png">
+            <p>Este es tu canal de gestión de cuentas.</p>
+            <p>Por aquí puedes:</p>
+            <ul>
+                <li>Actualizar datos personales</li>
+                <li>Consultar historial de pagos</li>
+                <li>Cambio de gimnasio</li>
+                <li>Modificar forma de pago</li>
+                <li>Cambiar plan</li>
+            </ul>
+        </div>
+        <div id="login">
+            <div class="language-selector">
+                🌐
+            </div>
+            <h2>Bienvenido a tu espacio personal</h2>
+            <p>¡Usa tu documento de acceso para administrar tu cuenta!</p>
+            <form action="">
+                <div id="registrar">
+                    <select id="dni" name="dni">
+                        <option value="" disabled selected>Selecciona tu tipo de documento</option>
+                        <option value="dni">DNI</option>
+                        <option value="pasaporte">Pasaporte</option>
+                        <option value="cedula">Cédula</option>
+                    </select>
+                    <input type="text" id="documento" name="documento" placeholder="Tu Documento">
+                </div><!-- registrar -->
+                <button type="submit">ENTRAR</button>
+            </form>
+        </div><!-- login -->
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/gimfit-logo.png" alt="Logo">
+            </div>
+            <div class="footer-redes">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-texto izquierda">
+                <p>Nosotros</p>
+                <p>Preguntas Frecuentes</p>
+                <p>Libro de Reclamaciones</p>
+                <p>Trabaja con Nosotros</p>
+                <p>Nuestros Locales</p>
+            </div>
+            <div class="footer-texto derecha">
+                <p>Comunidad</p>
+                <p>Contacto</p>
+                <p>Información sobre envíos</p>
+                <p>Politica de Privacidad</p>
+                <p>Plazos de Entrega</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
